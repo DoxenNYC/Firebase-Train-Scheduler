@@ -1,19 +1,44 @@
-input{
-    width: 100%;
+
+body{
+    background-image: url(https://cdn.vox-cdn.com/uploads/chorus_image/image/52561515/161231_22_52_51_5DS_0873.0.jpeg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.schedule-table {
+    font-family: 'Yatra One', cursive;
+}
+h1 {
+    text-align: center;
+    font-family: 'Yatra One', cursive;
 }
 
 h2 {
-    border: 3px double black;
-  }
-  
-h6 {
-    text-decoration: underline;
+    font-family: 'Yatra One', cursive;
+}
+
+h3 {
+    font-family: 'Yatra One', cursive;
 }
 
 tr {
-    border-bottom: 2px solid grey;
+    font-family: 'Yatra One', cursive;
 }
 
-td:hover {
-    background-color: bisque;
+form {
+   color: black;
+   font-family: 'Yatra One', cursive;
+}
+
+.btn {
+    background-color: blue;
+    border-color: green;
+    border-width: 2.5px;
+    font-family: 'Yatra One', cursive;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    border-color: blue;
 }
